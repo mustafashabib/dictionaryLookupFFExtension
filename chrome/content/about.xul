@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window class="dialog"
+	title="Dictionary Lookup Extension - About"
+	orient="vertical"
+	autostretch="always"
+	onload="sizeToContent()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+
+<groupbox align="center" orient="horizontal">
+<vbox>
+  <text value="Dictionary Lookup Extension" style="font-weight: bold; font-size: x-large;"/>
+  <text value="Version: 3.0"/>
+  <separator class="thin"/>
+  <text value="Created By:" style="font-weight: bold;"/>
+  <text value="Mustafa Shabib (mustafashabib [at] gmail [dot] com)"/>
+  <text value="http://www.mustafakidd.com"/>
+  <text value="Contributor:" style="font-weight: bold;"/>
+  <text value="Kevin Heard (heard_kevin [at] hotmail [dot] com)"/>
+  <separator class="thin"/>
+</vbox>
+<spring flex="1"/>
+</groupbox>
+
+  <hbox>
+  <spacer flex="1"/>
+   <button label="Close" oncommand="window.close();"/>
+  </hbox>
+
+</window>

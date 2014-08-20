@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<overlay id="dictionaryLookupOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<!-- This imports our javascript -->
+<script type="application/x-javascript" src="chrome://dictionarylookup/content/dictionarylookupOverlay.js"></script>
+
+
+<popup id="contentAreaContextMenu">
+	<menu id="dictionarylookup_submenu" label="Define..." accesskey="D" insertbefore="devToolsSeparator">
+		<menupopup id="dictionarylookup_popup">
+		<menuitem id="dictionarylookup_line1" label="Loading...">
+		</menuitem>
+		</menupopup>
+	</menu>
+</popup>
+
+
+
+
+</overlay>
+
